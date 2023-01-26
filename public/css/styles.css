@@ -1,35 +1,167 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap');
+/* Font Imports */
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Slab&display=swap');
 
+/* Universal Selector */
 * {
-    font-family: 'Roboto Mono', monospace;
-    
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+    font-size: x-large;
 }
 
-#brand-img {
-    width: 130px;
-    height: auto;
+@media (max-width: 768px) {
+    * {
+        font-size: medium; 
+    }
 }
 
+/* Universal Selector */
+
+/* Nav Start */
+#navbar {
+    transition: top 0.3s;
+}
+
+
+.nav-link-custom {
+    transition: all .5s;
+}
+
+.nav-link-custom:hover {
+    background-color: #dc3545;
+    padding-top: .2rem;
+    color: white !important;
+}
+/* Nav End */
+
+/* fixed positioned image for parallax effect start */
+/* home */
 #bg-image {
     margin: 0px;
     padding: 0px;
     min-height: 100vh;
     background-image: url(../images/background-image.jpg);
+    background-attachment: fixed;
     background-size: 100%;
+
 }
 
+@media (max-width: 768px) {
+    #bg-image {
+        background-size:cover;
+        background-position: center;
+    }
+}
+
+
+/* portfolio parallax bg*/
+#portfolio {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    background-image: url(../images/background-image-2.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+@media (max-width: 768px) {
+    #portfolio {
+        background-size:cover;
+        background-position: center;
+    }
+}
+
+
+/* fixed positioned image for parallax effect end*/
 #profile-pic {
     width: 90%;
     height: auto;
 }
 
-#social-icons {
-    font-size: 3rem;
-    transition: font-size .5s;
+
+/* Social Icons Start */
+.social-icons {
+    font-size: 1.5rem;
+    transition: all .5s;
 }
 
-#social-icons:hover {
+.social-icons:hover {
     color: #fff !important;
-    font-size: 4rem;
+    font-size: 3rem;
+    cursor: pointer;
+
+
+}
+.chevron-icons {
+    font-size: 2rem;
+    transition: all .5s;
+}
+
+.chevron-icons:hover {
+    color: #dc3545 !important;
+    padding-bottom: 1rem;
+    cursor: pointer;
+
+
+}
+/* Social Icons End */
+
+/* Call to action */
+#call-to-action:hover {
+    transition: all .5s;
+    background-color:#dc3545; 
+    border-color: #dc3545 !important;
     
 }
+
+/* Call to action end */
+
+/* custom font for the Section titles */
+.header-font {
+    font-family: 'Merriweather', serif;
+}
+
+/* tech icons */
+.tech-icons {
+    width: 100px;
+    transition: all .5s;
+    margin: 0;
+    padding: 0;
+}
+
+.tech-icons:hover {
+    cursor: pointer;
+    width: 200px;
+}
+/* tech icons end */
+
+/* portfolio-card */
+.portfolio-card{
+    transition: all .5s;
+}
+
+.portfolio-card:hover {
+    cursor: pointer;
+    background-color: #dc3545 !important;
+}
+/* portfolio-card end */
+
+/* header-line start */
+.header-line {
+    height: .25rem;
+    width: 100px;
+}
+/* header-line end */
+
+/* footer start */
+.chevron-icons-down {
+    font-size: 1.5rem;
+    transition: all .5s;
+}
+
+.chevron-icons-down:hover {
+    color: #dc3545 !important;
+    cursor: pointer;
+}
+/* footer start */
