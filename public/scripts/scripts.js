@@ -1,4 +1,4 @@
-// Nav Bar on scroll    
+// Nav Bar on scroll (not implemented)    
 // window.onscroll = function() {scrollFunction()};
 
 // function scrollFunction() {
@@ -9,6 +9,10 @@
 //   }
 // }
 
+
+//This is to initialize the tooltip which is using jquerry
+
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
+
