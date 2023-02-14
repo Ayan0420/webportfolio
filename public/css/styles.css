@@ -61,7 +61,7 @@
     margin: 0px;
     padding: 0px;
     min-height: 100vh;
-    background-image: url(../images/background-image-2.jpg);
+    background-image: url(../images/background-image-2.png);
     background-attachment: fixed;
     background-size: 100%;
 }
@@ -164,4 +164,8 @@
     color: #dc3545 !important;
     cursor: pointer;
 }
-/* footer start */
+/* footer end */
+
+.text-smaller {
+    font-size: .8rem;
+}
