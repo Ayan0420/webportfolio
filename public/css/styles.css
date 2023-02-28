@@ -17,8 +17,12 @@
     }
 }
 
-/* Universal Selector */
+/* Universal Selector end*/
 
+.bg-light-transparent {
+    background-color: rgba(248, 249, 250, 0.97) !important;
+  }
+  
 /* Nav Start */
 #navbar {
     transition: top 0.3s;
