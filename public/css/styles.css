@@ -173,3 +173,11 @@
 .text-smaller {
     font-size: .8rem;
 }
+
+.badge {
+    font-size: small;
+}
+
+/* .card-text {
+    font-size: large;
+} */
