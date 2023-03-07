@@ -178,6 +178,6 @@
     font-size: small;
 }
 
-/* .card-text {
-    font-size: large;
-} */
+.large-fs{
+    font-size: large !important;
+}
