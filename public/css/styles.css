@@ -229,7 +229,7 @@ from, to { border-color: transparent }
 }
 
 .rounded{
-    border-radius: .5rem !important;
+    border-radius: 0rem !important;
 }
 
 .rounded-top{
